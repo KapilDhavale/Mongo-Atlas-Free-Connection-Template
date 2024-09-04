@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 
 const mongoose = require('mongoose');
 require('dotenv').config();
-mongoose.connect("mongodb+srv://kapildhavale602:KOHXKNuKMVxWZhjF@connectiontemplate.vricl.mongodb.net/?retryWrites=true&w=majority&appName=connectiontemplate");
+mongoose.connect("mongodb+srv://(username):(password)@connectiontemplate.vricl.mongodb.net/?retryWrites=true&w=majority&appName=connectiontemplate");
 
 
 const User = require('./models/usermodel');
