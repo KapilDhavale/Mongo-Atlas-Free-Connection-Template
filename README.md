@@ -15,3 +15,6 @@ Using express & node.js
 4. Note : So if there are different devices using then in Database Access new devices need to be added as well.
 
 5. Here you will get the URL to connect from the Drivers Coloumn (path mentioned above)
+
+
+6. Start the server by node App.js
